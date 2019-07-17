@@ -1,0 +1,71 @@
+13:21:31.925 INFO  [main][SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [br.com.erudio.ApplicationTests], using SpringBootContextLoader
+13:21:31.941 INFO  [main][AbstractContextLoader] Could not detect default resource locations for test class [br.com.erudio.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:21:31.945 INFO  [main][AnnotationConfigContextLoaderUtils] Could not detect default configuration classes for test class [br.com.erudio.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:21:32.389 INFO  [main][SpringBootTestContextBootstrapper] Found @SpringBootConfiguration br.com.erudio.Application for test class br.com.erudio.ApplicationTests
+13:21:32.425 INFO  [main][SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+13:21:32.485 INFO  [main][SpringBootTestContextBootstrapper] Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+13:21:32.489 INFO  [main][SpringBootTestContextBootstrapper] Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+13:21:32.493 INFO  [main][SpringBootTestContextBootstrapper] Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+13:21:32.497 INFO  [main][SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@4b5a5ed1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@59d016c9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3cc2931c, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@20d28811, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3967e60c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@60d8c9b7, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@48aaecc3, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@7c0c77c7, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@7adda9cc]
+13:21:32.509 INFO  [main][SpringBootTestContextBootstrapper] Neither @ContextConfiguration nor @ContextHierarchy found for test class [br.com.erudio.ApplicationTests], using SpringBootContextLoader
+13:21:32.513 INFO  [main][AbstractContextLoader] Could not detect default resource locations for test class [br.com.erudio.ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+13:21:32.513 INFO  [main][AnnotationConfigContextLoaderUtils] Could not detect default configuration classes for test class [br.com.erudio.ApplicationTests]: ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+13:21:32.537 INFO  [main][SpringBootTestContextBootstrapper] Found @SpringBootConfiguration br.com.erudio.Application for test class br.com.erudio.ApplicationTests
+13:21:32.549 INFO  [main][SpringBootTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+13:21:32.557 INFO  [main][SpringBootTestContextBootstrapper] Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+13:21:32.557 INFO  [main][SpringBootTestContextBootstrapper] Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+13:21:32.561 INFO  [main][SpringBootTestContextBootstrapper] Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+13:21:32.561 INFO  [main][SpringBootTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@2667f029, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@67a20f67, org.springframework.test.context.support.DirtiesContextTestExecutionListener@57c758ac, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@a9cd3b1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@13e39c73, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@64cd705f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@9225652, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@654f0d9c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6a400542]
+13:21:33.444 INFO  [main][ApplicationTests] Starting ApplicationTests on LAPTOP-AC4JJI5O with PID 11896 (started by venka in C:\Users\venka\IdeaProjects\spring-boot-kafka-example)
+13:21:33.452 DEBUG [main][ApplicationTests] Running with Spring Boot v1.4.1.RELEASE, Spring v4.3.3.RELEASE
+13:21:33.452 INFO  [main][ApplicationTests] No active profile set, falling back to default profiles: default
+13:21:33.536 INFO  [main][AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2177849e: startup date [Thu Sep 20 13:21:33 CDT 2018]; root of context hierarchy
+13:21:34.792 INFO  [main][PostProcessorRegistrationDelegate$BeanPostProcessorChecker] Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [class org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$9d3638c2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:21:35.352 INFO  [main][DefaultLifecycleProcessor] Starting beans in phase 0
+13:21:36.060 INFO  [main][ApplicationTests] Started ApplicationTests in 3.359 seconds (JVM running for 5.905)
+13:21:41.147 ERROR [main][LoggingProducerListener] Exception thrown when sending a message with key='null' and payload='Hello Spring Kafka!' to topic helloworld.t:
+org.apache.kafka.common.errors.TimeoutException: Failed to update metadata after 5000 ms.
+13:21:41.159 ERROR [main][Sender] unable to send message='Hello Spring Kafka!'
+org.springframework.kafka.core.KafkaProducerException: Failed to send; nested exception is org.apache.kafka.common.errors.TimeoutException: Failed to update metadata after 5000 ms.
+	at org.springframework.kafka.core.KafkaTemplate$1.onCompletion(KafkaTemplate.java:226)
+	at org.apache.kafka.clients.producer.KafkaProducer.doSend(KafkaProducer.java:479)
+	at org.apache.kafka.clients.producer.KafkaProducer.send(KafkaProducer.java:430)
+	at org.springframework.kafka.core.DefaultKafkaProducerFactory$CloseSafeProducer.send(DefaultKafkaProducerFactory.java:156)
+	at org.springframework.kafka.core.KafkaTemplate.doSend(KafkaTemplate.java:213)
+	at org.springframework.kafka.core.KafkaTemplate.send(KafkaTemplate.java:153)
+	at br.com.erudio.producer.Sender.sendMessage(Sender.java:21)
+	at br.com.erudio.ApplicationTests.testReceiver(ApplicationTests.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:252)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:94)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:191)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:283)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:173)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:128)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: org.apache.kafka.common.errors.TimeoutException: Failed to update metadata after 5000 ms.
+13:21:46.425 INFO  [Thread-1][AnnotationConfigApplicationContext] Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2177849e: startup date [Thu Sep 20 13:21:33 CDT 2018]; root of context hierarchy
+13:21:46.429 INFO  [Thread-1][DefaultLifecycleProcessor] Stopping beans in phase 0
+13:21:46.465 INFO  [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-kafka-consumer-1][KafkaMessageListenerContainer$ListenerConsumer] Consumer stopped

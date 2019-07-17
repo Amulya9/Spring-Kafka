@@ -1,0 +1,14 @@
+13:22:48.977 INFO  [main][Application] Starting Application on LAPTOP-AC4JJI5O with PID 16156 (C:\Users\venka\IdeaProjects\spring-boot-kafka-example\target\classes started by venka in C:\Users\venka\IdeaProjects\spring-boot-kafka-example)
+13:22:48.989 INFO  [main][Application] No active profile set, falling back to default profiles: default
+13:22:49.105 INFO  [main][AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@53ca01a2: startup date [Thu Sep 20 13:22:49 CDT 2018]; root of context hierarchy
+13:22:50.316 INFO  [main][PostProcessorRegistrationDelegate$BeanPostProcessorChecker] Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [class org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$a398ad83] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:22:50.816 INFO  [main][AnnotationMBeanExporter] Registering beans for JMX exposure on startup
+13:22:50.824 INFO  [main][DefaultLifecycleProcessor] Starting beans in phase 0
+13:22:50.964 INFO  [main][Application] Started Application in 2.431 seconds (JVM running for 4.438)
+13:25:12.302 INFO  [main][Application] Starting Application on LAPTOP-AC4JJI5O with PID 1232 (C:\Users\venka\IdeaProjects\spring-boot-kafka-example\target\classes started by venka in C:\Users\venka\IdeaProjects\spring-boot-kafka-example)
+13:25:12.310 INFO  [main][Application] No active profile set, falling back to default profiles: default
+13:25:12.406 INFO  [main][AnnotationConfigApplicationContext] Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@53ca01a2: startup date [Thu Sep 20 13:25:12 CDT 2018]; root of context hierarchy
+13:25:13.390 INFO  [main][PostProcessorRegistrationDelegate$BeanPostProcessorChecker] Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [class org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$a398ad83] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+13:25:13.906 INFO  [main][AnnotationMBeanExporter] Registering beans for JMX exposure on startup
+13:25:13.914 INFO  [main][DefaultLifecycleProcessor] Starting beans in phase 0
+13:25:14.034 INFO  [main][Application] Started Application in 2.111 seconds (JVM running for 4.144)
